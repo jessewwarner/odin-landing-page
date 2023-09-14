@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container,
+header,
+.header-links,
+.title-bar,
+.title-block,
+.god-info,
+.god-container,
+.god-container div,
+.card-block,
+.card,
+footer {
+    display: flex;
+}
+
+.container {
+    max-width: 800px;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+
+header {
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.header-links {
+    align-items: center;
+    gap: 20px;
+}
+
+.title-bar {
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.title-block {
+    flex-direction: column;
+    max-width: 360px;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.title-subtext {
+    font-size: 20px;
+}
+
+.sign-up {
+    width: 100px;
+    padding: 6px 20px;
+    background-color: blue;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+}
+
+.odin {
+    max-width: 400px;
+}
+
+.god-container div {
+    flex-direction: column;
+}
+
+.god-info {
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
