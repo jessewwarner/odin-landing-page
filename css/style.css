@@ -6,10 +6,6 @@
     font-size: 20px;
 }
 
-header {
-    background-color: aquamarine;
-}
-
 .title-bar {
     background-image: url(/images/nordic_landscape.png);
     background-repeat: no-repeat;
@@ -64,7 +60,6 @@ header {
 
 body {
     height: 100vh;
-    background-color:azure;
 }
 
 .header-links {
@@ -102,7 +97,6 @@ body {
 }
 
 .title-subtext {
-    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -120,10 +114,6 @@ body {
     font-size: 16px;
     color: white;
     border-color: white;
-}
-
-.odin img {
-    max-width: 100%;
 }
 
 .god-info .content {
