@@ -1,15 +1,13 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 .container,
-header,
+.header,
 .header-links,
-.title-bar,
 .title-block,
-.god-info,
+.god-info .content,
 .god-container,
 .god-container div,
 .card-block,
@@ -19,15 +17,24 @@ footer {
 }
 
 .container {
-    max-width: 800px;
     flex-direction: column;
     margin: 0px auto;
 }
 
+body {
+    height: 100vh;
+    background-color:azure;
+}
 
 header {
+    background-color: aquamarine;
+}
+
+.header {
     justify-content: space-between;
-    background-color: aliceblue;
+    max-width: 600px;
+    margin: 0px auto;
+
 }
 
 .header-links {
@@ -35,16 +42,25 @@ header {
     gap: 20px;
 }
 
-.title-bar {
+.title-bar .content {
+    display: flex;
     justify-content: space-between;
+}
+
+.content {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.title-bar {
     background-color: aqua;
-    padding: 10px;
 }
 
 .title-block {
     flex-direction: column;
     max-width: 360px;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .title {
@@ -66,20 +82,39 @@ header {
 }
 
 .odin {
-    max-width: 400px;
+    width: 400px;
+    height: auto;
+    border: 1px solid red;
 }
 
-.god-container div {
-    flex-direction: column;
+.odin img {
+    max-width: 100%;
 }
 
 .god-info {
+    background-color: red;
+}
+
+.god-info .content {
     flex-direction: column;
     text-align: center;
 }
 
-img {
-    max-width: 200px;
+.god-container {
+    justify-content: space-between;
+}
+
+.god-card {
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.god-card img {
+    max-width: 100%;
+}
+
+.ragnarok {
+    background-color: bisque;
 }
 
 ul {
@@ -93,4 +128,12 @@ a {
 .logo {
     width: 100px;
     height: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 20px 0px;
 }
