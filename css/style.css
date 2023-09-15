@@ -5,6 +5,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header {
+    background-color: aquamarine;
+}
+
+.title-bar {
+    background-image: url(/images/nordic_landscape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-color: aqua;
+}
+
+.god-info {
+    background-color: red;
+}
+
+.ragnarok {
+    background-color: bisque;
+}
+
+.card-block {
+    background-color: burlywood;
+}
+
 .container,
 .header,
 .header-links,
@@ -28,13 +51,8 @@ body {
     background-color:azure;
 }
 
-header {
-    background-color: aquamarine;
-}
-
 .header {
     justify-content: space-between;
-    max-width: 600px;
     margin: 0px auto;
 
 }
@@ -48,21 +66,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .content {
-    max-width: 700px;
+    max-width: 800px;
     margin: 25px auto;
-}
-
-.title-bar {
-    background-color: aqua;
 }
 
 .title-block {
     flex-direction: column;
-    max-width: 360px;
     justify-content: space-between;
+    max-width: 360px;
     padding: 10px;
 }
 
@@ -77,6 +95,12 @@ header {
     margin-bottom: 20px;
 }
 
+.odin {
+    max-width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
 .sign-up {
     width: 100px;
     padding: 6px 20px;
@@ -88,10 +112,6 @@ header {
 
 .odin img {
     max-width: 100%;
-}
-
-.god-info {
-    background-color: red;
 }
 
 .god-info .content {
@@ -118,16 +138,8 @@ header {
     margin-bottom: 10px;
 }
 
-.ragnarok {
-    background-color: bisque;
-}
-
 .ragnarok .content {
     font-size: 20px;
-}
-
-.card-block {
-    background-color: burlywood;
 }
 
 .card-block .content{
