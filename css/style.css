@@ -7,25 +7,25 @@
 }
 
 .title-bar {
-    background-image: url(/images/nordic_landscape.png);
+    background-image: url(../images/nordic_landscape.png);
     background-repeat: no-repeat;
     background-size: 100% 200%;
     background-color: rgb(21, 49, 49);
 }
 
 .god-info {
-    background-image: url(/images/bg_runic_symbols_2.png);
+    background-image: url(../images/bg_runic_symbols_2.png);
     background-color: rgb(221, 99, 0);
 }
 
 .ragnarok {
-    background-image: url(/images/ragnorak_war_2.png);
+    background-image: url(../images/ragnorak_war_2.png);
     background-color: rgb(114, 68, 30);
     background-repeat: 100% auto;
 }
 
 .card-block {
-    background-image: url(/images/bg_runic_symbols.png);
+    background-image: url(../images/bg_runic_symbols.png);
     background-color: rgb(56, 56, 56);
 }
 
