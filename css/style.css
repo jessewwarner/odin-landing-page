@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container,
@@ -10,7 +11,7 @@
 .god-info .content,
 .god-container,
 .god-container div,
-.card-block,
+.card-block .content,
 .card,
 footer {
     display: flex;
@@ -115,6 +116,23 @@ header {
 
 .ragnarok {
     background-color: bisque;
+}
+
+.card-block {
+    background-color: burlywood;
+}
+
+.card-block .content{
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    border-radius: 8px 8px;
+    padding: 40px 80px;
+    margin: 40px auto;
+}
+
+.card-block .sign-up {
+    border-color: white;
 }
 
 ul {
